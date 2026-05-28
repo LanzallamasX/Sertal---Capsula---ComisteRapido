@@ -528,6 +528,7 @@ const sizes = [
 
       card.addEventListener('click', () => {
         openPreview(size, w, h);
+        window.open(`./${size}/index.html`, '_blank');
       });
 
       grid.appendChild(card);
